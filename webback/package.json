@@ -1,25 +1,23 @@
 {
-  "name": "ngine",
+  "name": "ngine_page",
   "version": "1.0.0",
   "description": "my page",
   "main": "index.js",
-  "dependencies": {
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm-run-all --parallel start:**",
-    "start:front": "cd webfront && npm run-script build && npm run-script start",
-    "start:back": "cd webback && npm run-script start"
+    "start": "node ./services/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SIMCHEOL/ngine_page.git"
   },
-  "author": "SIMCHEOL for DEV",
+  "author": "SIMCHEOL",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SIMCHEOL/ngine_page/issues"
   },
-  "homepage": "https://github.com/SIMCHEOL/ngine_page#readme"
+  "homepage": "https://github.com/SIMCHEOL/ngine_page#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
