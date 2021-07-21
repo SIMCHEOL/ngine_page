@@ -1,0 +1,19 @@
+{
+  "name": "ngine_page",
+  "version": "1.0.0",
+  "description": "my page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIMCHEOL/ngine_page.git"
+  },
+  "author": "SIMCHEOL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SIMCHEOL/ngine_page/issues"
+  },
+  "homepage": "https://github.com/SIMCHEOL/ngine_page#readme"
+}
